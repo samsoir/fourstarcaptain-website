@@ -1,15 +1,27 @@
 :root {
   color-scheme: dark;
 
-  /* Colors */
-  --bg: #000;
+  /* Base canvas */
+  --bg: #0a0a14;           /* low-saturation indigo-black */
   --fg: #fff;
-  --accent: #b50000;
-  --accent-hover: #e6002e;
   --muted: #969696;
-  --soft: #1a1a1a;         /* raised surface — card bg, placeholder fill */
-  --line: #262626;         /* hairline dividers and borders */
-  --nav-bg: rgba(0, 0, 0, 0.85);
+  --soft: #1a1a22;         /* raised surface — card bg, placeholder fill */
+  --line: #262632;         /* hairline dividers and borders */
+  --nav-bg: rgba(10, 10, 20, 0.7);
+
+  /* Primary identity accent (ECAS amber) — headings, focus rings, underlines */
+  --accent: #ffb000;
+  --accent-hover: #ffc733;
+
+  /* Secondary interactive (ECAS cyan) — link hover, active highlights */
+  --link: #00ccff;
+  --link-hover: #66ddff;
+
+  /* Full ECAS palette — reserved tokens for callouts, badges, future UI states */
+  --ecas-amber: #ffb000;
+  --ecas-cyan: #00ccff;
+  --ecas-green: #00cc00;
+  --ecas-magenta: #cc66ff;
 
   /* Typography */
   --t-hero: clamp(2.5rem, 6vw, 4.5rem);
