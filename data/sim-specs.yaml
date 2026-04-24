@@ -70,7 +70,9 @@ categories:
       - name: Primary
         value: X-Plane 12
       - name: Others
-        value: MSFS, MSFS 2024, DCS
+        value: MSFS; MSFS 2024; DCS
+      - name: Historic
+        value: Prepar3d v2-5; MS Flight Simulator 3.0-98; DiD TFX / EF200 / F22; Knights of the Sky
   - name: Audio
     items:
       - name: Audio Interface
