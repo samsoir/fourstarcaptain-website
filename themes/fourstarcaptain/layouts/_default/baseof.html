@@ -27,8 +27,10 @@
   {{ $comingSoon := resources.Get "css/_coming-soon.css" }}
   {{ $css := slice $tokens $base $comingSoon | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+  {{ $navJs := resources.Get "js/nav-scroll.js" | resources.Minify | resources.Fingerprint }}
+  <script defer src="{{ $navJs.RelPermalink }}" integrity="{{ $navJs.Data.Integrity }}"></script>
 </head>
-<body>
+<body{{ if eq .Kind "home" }} class="has-hero"{{ end }}>
   {{ block "main" . }}{{ end }}
 </body>
 </html>
