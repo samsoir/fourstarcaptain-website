@@ -1,0 +1,32 @@
+:root {
+  color-scheme: dark;
+
+  /* Colors */
+  --bg: #000;
+  --fg: #fff;
+  --accent: #b50000;
+  --accent-hover: #e6002e;
+  --muted: #8a8a8a;
+  --soft: #1a1a1a;
+  --line: #262626;
+  --nav-bg: rgba(0, 0, 0, 0.85);
+
+  /* Typography */
+  --t-hero: clamp(2.5rem, 6vw, 4.5rem);
+  --t-h1: clamp(2rem, 4.5vw, 3rem);
+  --t-h2: clamp(1.25rem, 2.2vw, 1.5rem);
+  --t-body: 1rem;
+  --t-small: 0.85rem;
+  --t-caption: 0.7rem;
+
+  /* Spacing */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 0.75rem;
+  --s-4: 1rem;
+  --s-5: 1.5rem;
+  --s-6: 2rem;
+  --s-7: 3rem;
+  --s-8: 4rem;
+  --s-9: 6rem;
+}
