@@ -25,9 +25,10 @@
   {{ $tokens := resources.Get "css/_tokens.css" }}
   {{ $base := resources.Get "css/_base.css" }}
   {{ $nav := resources.Get "css/_nav.css" }}
+  {{ $hero := resources.Get "css/_hero.css" }}
   {{ $footer := resources.Get "css/_footer.css" }}
   {{ $comingSoon := resources.Get "css/_coming-soon.css" }}
-  {{ $css := slice $tokens $base $nav $footer $comingSoon | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint }}
+  {{ $css := slice $tokens $base $nav $hero $footer $comingSoon | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
   {{ $navJs := resources.Get "js/nav-scroll.js" | resources.Minify | resources.Fingerprint }}
   <script defer src="{{ $navJs.RelPermalink }}" integrity="{{ $navJs.Data.Integrity }}"></script>
