@@ -7,15 +7,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--s-3) var(--s-5);
+  padding: var(--s-6) var(--s-5);
   background: var(--nav-bg);
   backdrop-filter: blur(8px);
-  transition: background 250ms ease, backdrop-filter 250ms ease;
+  transition: opacity 250ms ease, background 250ms ease, backdrop-filter 250ms ease;
 }
 
 body.has-hero:not(.scrolled) .nav {
-  background: transparent;
-  backdrop-filter: none;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .nav-home {
@@ -64,7 +64,7 @@ body.has-hero:not(.scrolled) .nav {
 }
 
 @media (max-width: 720px) {
-  .nav { padding: var(--s-2) var(--s-4); }
+  .nav { padding: var(--s-4) var(--s-4); }
   .nav-home img { width: 24px; height: 24px; }
   .nav-home-label { display: none; }
   .nav-links { gap: var(--s-4); }
