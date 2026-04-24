@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">Four Star Captain</title>
+  <!-- shield outline: rectangle top, chevron bottom -->
+  <path fill="#ffffff" d="M20 10 H180 V200 L100 230 L20 200 Z"/>
+  <!-- three horizontal bars (cut-outs, black) -->
+  <rect x="36" y="34" width="128" height="22" fill="#000000"/>
+  <rect x="36" y="64" width="128" height="22" fill="#000000"/>
+  <rect x="36" y="94" width="128" height="22" fill="#000000"/>
+  <!-- four stars row (black on white) -->
+  <g fill="#000000">
+    <path d="M62 140 l3.5 9.5 l10 .5 l-7.5 6 l2.5 9.5 l-8.5 -5.5 l-8.5 5.5 l2.5 -9.5 l-7.5 -6 l10 -.5 Z"/>
+    <path d="M88 140 l3.5 9.5 l10 .5 l-7.5 6 l2.5 9.5 l-8.5 -5.5 l-8.5 5.5 l2.5 -9.5 l-7.5 -6 l10 -.5 Z"/>
+    <path d="M114 140 l3.5 9.5 l10 .5 l-7.5 6 l2.5 9.5 l-8.5 -5.5 l-8.5 5.5 l2.5 -9.5 l-7.5 -6 l10 -.5 Z"/>
+    <path d="M140 140 l3.5 9.5 l10 .5 l-7.5 6 l2.5 9.5 l-8.5 -5.5 l-8.5 5.5 l2.5 -9.5 l-7.5 -6 l10 -.5 Z"/>
+  </g>
+  <!-- bottom bar -->
+  <rect x="36" y="178" width="128" height="16" fill="#000000"/>
+</svg>
