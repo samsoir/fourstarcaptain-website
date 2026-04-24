@@ -1,0 +1,12 @@
+name = "fourstarcaptain"
+license = "Proprietary"
+licenselink = ""
+description = "In-tree theme for fourstarcaptain.com."
+homepage = "https://fourstarcaptain.com/"
+tags = []
+features = []
+min_version = "0.160.0"
+
+[author]
+  name = "Sam de Freyssinet"
+  homepage = "https://fourstarcaptain.com/"
