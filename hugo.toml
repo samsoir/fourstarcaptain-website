@@ -2,6 +2,7 @@ baseURL = 'https://fourstarcaptain.com/'
 languageCode = 'en-us'
 title = 'Four Star Captain'
 theme = 'fourstarcaptain'
+disableKinds = ["taxonomy", "term"]
 
 [params]
   description = "Companion site for the Four Star Captain YouTube channel."
@@ -13,3 +14,5 @@ theme = 'fourstarcaptain'
 
 [outputs]
   home = ["HTML"]
+  section = ["HTML"]
+  page = ["HTML"]
