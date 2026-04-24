@@ -1,0 +1,24 @@
+# Edit this file to reflect the real setup.
+# Each category renders as a red-label section on /sim-specs/.
+categories:
+  - name: Flight Deck
+    items:
+      - name: Yoke
+        value: TBD
+      - name: Throttle Quadrant
+        value: TBD
+      - name: Rudder Pedals
+        value: TBD
+  - name: Computer
+    items:
+      - name: CPU
+        value: TBD
+      - name: GPU
+        value: TBD
+  - name: Software
+    items:
+      - name: Sim
+        value: X-Plane 12
+      - name: Scenery
+        value: XEarthLayer
+        link: https://xearthlayer.app/

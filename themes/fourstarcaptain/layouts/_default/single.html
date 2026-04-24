@@ -1,0 +1,29 @@
+{{ define "main" }}
+{{ partial "nav.html" . }}
+
+<article class="page">
+  <header class="page-header">
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{ with .Content }}<div class="page-intro">{{ . }}</div>{{ end }}
+  </header>
+
+  {{ range (index hugo.Data "sim-specs").categories }}
+  <section class="spec-category">
+    <h2 class="category-label">{{ .name }}</h2>
+    <ul class="spec-list">
+      {{ range .items }}
+      <li class="spec-row">
+        <span class="spec-name">{{ .name }}</span>
+        <span class="spec-value">
+          {{ if .link }}<a href="{{ .link }}" target="_blank" rel="noopener noreferrer">{{ .value }}</a>{{ else }}{{ .value }}{{ end }}
+        </span>
+        {{ with .note }}<p class="spec-note">{{ . }}</p>{{ end }}
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+</article>
+
+{{ partial "footer.html" . }}
+{{ end }}
