@@ -1,24 +1,88 @@
 # Edit this file to reflect the real setup.
 # Each category renders as a red-label section on /sim-specs/.
 categories:
-  - name: Flight Deck
+  - name: Airbus Flight Equipment
+    items:
+      - name: Flight Stick
+        value: Virpil MongoosT-50CM3 Base, Flight Sim Projects A320 Sidestick
+      - name: Throttle Quadrant
+        value: WINCTRL URSA MINOR 32 Throttle Metal  / 32 PAC Metal
+      - name: FMS
+        value: WINCTRL MCDU x2
+      - name: FCU
+        value: WINCTRL Airbus FCU + dual EFIS
+  - name: Boeing Flight Equipment
+    items:
+      - name: Throttle Quadrant
+        value: MOZA MTQ Throttle Quadrant + TQB Module
+      - name: FMS
+        value: WINCTRL PFP7 x2, PFP 3N
+      - name: FCU
+        value: WINCTRL PAP3 Mag + dual 3N/M PDC
+  - name: General Flight Equipment
     items:
       - name: Yoke
-        value: TBD
+        value: MOZA AY210 Force Feedback Yoke
       - name: Throttle Quadrant
-        value: TBD
+        value: Virtual Fly TQ6+
       - name: Rudder Pedals
-        value: TBD
+        value: MOZA MRP Rudder Pedals
+      - name: Tiller
+        value: Blackbird Controls Modular Tiller System + Airbus Handle
+  - name: Graphics
+    items:
+      - name: Primary Display
+        value: LG 45" UltraGear OLED 5K2K
+      - name: Secondary Display
+        value: LG 32" 4K UHD UltraFine LED
+      - name: GPU
+        value: NVidia GeForce RTX 5090 Founders Edition
+      - name: Cooling
+        value: EKWB GPU block and radiator, custom loop
   - name: Computer
     items:
       - name: CPU
-        value: TBD
-      - name: GPU
-        value: TBD
-  - name: Software
+        value: AMD Ryzen 9 9950X3D
+      - name: Cooling
+        value: Thermal Grizzly delidded CPU block, EKWB radiator, custom loop
+      - name: Memory
+        value: G.Skill DDR5 96GB
+      - name: Motherboard
+        value: Gigabyte Aorus X870E Xtreme AI Top
+      - name: Power Supply
+        value: Seasonic Prime TX 1600W Platinum PSU
+      - name: Case
+        value: Thermaltake Level 20 HT Snow Edition (2020)
+      - name: Keyboard
+        value: Keychron K10 HE Keyboard + Q0 HE QMK Number Pad (for OBS)
+      - name: Mouse
+        value: Logitech MX Ergo S
+  - name: Operating System
     items:
-      - name: Sim
+      - name: Kernel
+        value: Linux
+      - name: Distribution
+        value: CachyOS
+      - name: Desktop Environment
+        value: Gnome
+  - name: Flight Simulators
+    items:
+      - name: Primary
         value: X-Plane 12
-      - name: Scenery
-        value: XEarthLayer
-        link: https://xearthlayer.app/
+      - name: Others
+        value: MSFS, MSFS 2024, DCS
+  - name: Audio
+    items:
+      - name: Audio Interface
+        value: Focusrite 18i20 4th Gen
+      - name: Microphone
+        value: Sennheiser Shotgun MKE600
+      - name: Headphones
+        value: Audio Technica ATH-M70x
+  - name: Furniture
+    items:
+      - name: Desk
+        value: Herman Miller Everywhere Table
+      - name: Chair
+        value: Herman Miller x Logitech G Embody Gaming Chair
+
