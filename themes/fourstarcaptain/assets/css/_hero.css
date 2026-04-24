@@ -20,13 +20,24 @@
   display: grid;
   place-items: center;
   grid-auto-flow: row;
-  gap: var(--s-5);
+  gap: 3em;
   padding: var(--s-5);
 }
 
+.hero-logo-frame {
+  display: grid;
+  place-items: center;
+  padding: var(--s-5);
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.75);
+  aspect-ratio: 1 / 1;
+}
+
 .hero-logo {
-  width: clamp(140px, 18vw, 220px);
+  width: clamp(210px, 27vw, 330px);
+  aspect-ratio: 1 / 1;
   height: auto;
+  display: block;
 }
 
 .hero-wordmark {
@@ -39,7 +50,8 @@
 
 @media (max-width: 720px) {
   .hero { height: 50vh; min-height: 380px; }
-  .hero-logo { width: clamp(120px, 28vw, 160px); }
+  .hero-logo-frame { padding: var(--s-4); }
+  .hero-logo { width: clamp(180px, 42vw, 240px); }
 }
 
 @media (prefers-reduced-motion: reduce) {
