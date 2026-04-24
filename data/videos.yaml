@@ -1,0 +1,15 @@
+# Newest first. First 6 show on the homepage.
+# Replace with real video IDs + titles before going live.
+videos:
+  - id: dQw4w9WgXcQ
+    title: Placeholder video 1
+  - id: dQw4w9WgXcQ
+    title: Placeholder video 2
+  - id: dQw4w9WgXcQ
+    title: Placeholder video 3
+  - id: dQw4w9WgXcQ
+    title: Placeholder video 4
+  - id: dQw4w9WgXcQ
+    title: Placeholder video 5
+  - id: dQw4w9WgXcQ
+    title: Placeholder video 6

@@ -1,0 +1,21 @@
+<section class="gallery" aria-labelledby="gallery-heading">
+  <h2 id="gallery-heading" class="gallery-heading">Recent Videos</h2>
+  <ul class="gallery-grid">
+    {{ range first 6 .Site.Data.videos.videos }}
+    <li>
+      <a href="https://youtu.be/{{ .id }}"
+         target="_blank" rel="noopener noreferrer"
+         aria-label="{{ .title }} (opens on YouTube)">
+        <img src="https://img.youtube.com/vi/{{ .id }}/hqdefault.jpg"
+             loading="lazy" width="480" height="360" alt="">
+        <span class="video-title">{{ .title }}</span>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+  <p class="gallery-more">
+    <a href="{{ .Site.Params.youtube }}" target="_blank" rel="noopener noreferrer">
+      See all on YouTube &rarr;
+    </a>
+  </p>
+</section>
