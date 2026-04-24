@@ -34,7 +34,7 @@ html, body {
 }
 
 .logo {
-  width: clamp(80px, 14vw, 120px);
+  width: clamp(160px, 28vw, 240px);
   height: auto;
   display: block;
 }
