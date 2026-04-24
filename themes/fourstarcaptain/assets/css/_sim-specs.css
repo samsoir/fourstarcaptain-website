@@ -82,7 +82,7 @@
 
 .spec-value a:hover,
 .spec-value a:focus-visible {
-  color: var(--accent-hover);
+  color: var(--link-hover);
 }
 
 .spec-note {

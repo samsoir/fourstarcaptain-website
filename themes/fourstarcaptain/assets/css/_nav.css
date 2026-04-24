@@ -54,7 +54,7 @@ body.has-hero:not(.scrolled) .nav {
 
 .nav-links a:hover,
 .nav-links a:focus-visible {
-  color: var(--accent-hover);
+  color: var(--link-hover);
 }
 
 .nav :focus-visible {

@@ -30,7 +30,7 @@
 }
 
 .footer-links a:hover,
-.footer-links a:focus-visible { color: var(--accent-hover); }
+.footer-links a:focus-visible { color: var(--link-hover); }
 
 .footer-signoff {
   text-align: right;

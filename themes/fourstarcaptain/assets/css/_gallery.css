@@ -68,7 +68,7 @@
 
 .gallery-grid a:hover .video-title,
 .gallery-grid a:focus-visible .video-title {
-  color: var(--accent-hover);
+  color: var(--link-hover);
 }
 
 .gallery-grid a:focus-visible {
@@ -89,7 +89,7 @@
 }
 
 .gallery-more a:hover,
-.gallery-more a:focus-visible { color: var(--accent-hover); }
+.gallery-more a:focus-visible { color: var(--link-hover); }
 
 @media (max-width: 720px) {
   .gallery { padding: var(--s-6) var(--s-4) 0; }
