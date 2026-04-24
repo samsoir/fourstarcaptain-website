@@ -1,15 +1,6 @@
 {{ define "main" }}
-<main class="coming-soon">
-  <div class="brand">
-    <img class="logo" src="/logo.svg" alt="" aria-hidden="true" width="120" height="120">
-    <h1 class="wordmark">Four Star Captain</h1>
-  </div>
-  <footer class="studio">
-    <p class="attribution">
-      <span class="signature"><span class="lowercase">de</span> Freyssinet</span>
-      <span class="studios">Studios</span>
-    </p>
-    <p class="copyright">Copyright &copy; MMXXVI de Freyssinet, all rights reserved.</p>
-  </footer>
-</main>
+{{ partial "nav.html" . }}
+{{ partial "hero.html" . }}
+{{ partial "gallery.html" . }}
+{{ partial "footer.html" . }}
 {{ end }}

@@ -29,8 +29,7 @@
   {{ $gallery := resources.Get "css/_gallery.css" }}
   {{ $simSpecs := resources.Get "css/_sim-specs.css" }}
   {{ $footer := resources.Get "css/_footer.css" }}
-  {{ $comingSoon := resources.Get "css/_coming-soon.css" }}
-  {{ $css := slice $tokens $base $nav $hero $gallery $simSpecs $footer $comingSoon | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint }}
+  {{ $css := slice $tokens $base $nav $hero $gallery $simSpecs $footer | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
   {{ $navJs := resources.Get "js/nav-scroll.js" | resources.Minify | resources.Fingerprint }}
   <script defer src="{{ $navJs.RelPermalink }}" integrity="{{ $navJs.Data.Integrity }}"></script>
