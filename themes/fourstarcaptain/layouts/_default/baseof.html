@@ -4,6 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ .Title }}{{ if ne .Kind "home" }} — {{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ .Site.Title }}">
+  <meta property="og:description" content="{{ .Site.Params.description }}">
+  <meta property="og:url" content="{{ .Site.BaseURL }}">
+  <meta property="og:image" content="{{ .Site.BaseURL }}favicon-192.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ .Site.Title }}">
+  <meta name="twitter:description" content="{{ .Site.Params.description }}">
+  <meta name="twitter:image" content="{{ .Site.BaseURL }}favicon-192.png">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
