@@ -1,0 +1,15 @@
+baseURL = 'https://fourstarcaptain.com/'
+languageCode = 'en-us'
+title = 'Four Star Captain'
+theme = 'fourstarcaptain'
+
+[params]
+  description = "Companion site for the Four Star Captain YouTube channel."
+  youtube = "https://www.youtube.com/@fourstarcaptain"
+  xearthlayer = "https://xearthlayer.app/"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[outputs]
+  home = ["HTML"]
