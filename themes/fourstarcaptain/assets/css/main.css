@@ -1,3 +1,84 @@
-:root { color-scheme: dark; }
-html, body { margin: 0; padding: 0; background: #000; color: #fff; font-family: system-ui, sans-serif; }
-main { min-height: 100svh; display: flex; align-items: center; justify-content: center; }
+:root {
+  color-scheme: dark;
+  --bg: #000;
+  --fg: #fff;
+  --accent: #e4022b;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'Poppins', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.coming-soon {
+  min-height: 100svh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  justify-items: center;
+  padding: 2rem 1.5rem;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  align-self: center;
+}
+
+.logo {
+  width: clamp(80px, 14vw, 120px);
+  height: auto;
+  display: block;
+}
+
+.wordmark {
+  margin: 0;
+  font-weight: 600;
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+.studio {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.attribution {
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+}
+
+.attribution .accent { color: var(--accent); }
+.attribution .studios {
+  font-weight: 400;
+  font-size: 0.75rem;
+  letter-spacing: 0.5em;
+  margin-left: 0.25em;
+}
+
+.copyright {
+  margin: 0;
+  font-size: 0.72rem;
+  letter-spacing: 0.05em;
+  opacity: 0.85;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
