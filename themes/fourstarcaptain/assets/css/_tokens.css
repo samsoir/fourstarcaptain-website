@@ -6,9 +6,9 @@
   --fg: #fff;
   --accent: #b50000;
   --accent-hover: #e6002e;
-  --muted: #8a8a8a;
-  --soft: #1a1a1a;
-  --line: #262626;
+  --muted: #969696;
+  --soft: #1a1a1a;         /* raised surface — card bg, placeholder fill */
+  --line: #262626;         /* hairline dividers and borders */
   --nav-bg: rgba(0, 0, 0, 0.85);
 
   /* Typography */
