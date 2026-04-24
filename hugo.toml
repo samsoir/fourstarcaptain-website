@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'Four Star Captain'
 theme = 'fourstarcaptain'
 disableKinds = ["taxonomy", "term"]
+disableHugoGeneratorInject = true
 
 [params]
   description = "Companion site for the Four Star Captain YouTube channel."
