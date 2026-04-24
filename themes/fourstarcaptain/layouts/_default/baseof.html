@@ -24,8 +24,9 @@
   {{/* CSS load order is explicit: tokens → base → page-specific. Filesystem order is irrelevant. */}}
   {{ $tokens := resources.Get "css/_tokens.css" }}
   {{ $base := resources.Get "css/_base.css" }}
+  {{ $nav := resources.Get "css/_nav.css" }}
   {{ $comingSoon := resources.Get "css/_coming-soon.css" }}
-  {{ $css := slice $tokens $base $comingSoon | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint }}
+  {{ $css := slice $tokens $base $nav $comingSoon | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
   {{ $navJs := resources.Get "js/nav-scroll.js" | resources.Minify | resources.Fingerprint }}
   <script defer src="{{ $navJs.RelPermalink }}" integrity="{{ $navJs.Data.Integrity }}"></script>
