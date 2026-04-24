@@ -1,0 +1,15 @@
+# Call-to-action cards shown on the homepage below the gallery.
+# Append new entries here as content grows (articles, about page, etc.).
+# Each card: { title, subtitle, href, external, icon }
+# icon = key matching a <symbol> id declared in partials/cta.html's SVG sprite.
+ctas:
+  - title: Sim Specs
+    subtitle: See what's running the sim.
+    href: /sim-specs/
+    external: false
+    icon: sliders
+  - title: YouTube
+    subtitle: Watch the latest videos and subscribe.
+    href: https://www.youtube.com/@fourstarcaptain
+    external: true
+    icon: youtube
