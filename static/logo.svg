@@ -1,4 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240" role="img" aria-labelledby="logoTitle">
+  <rect width="200" height="240" fill="#000000"/>
   <title id="logoTitle">Four Star Captain</title>
   <!-- shield outline: rectangle top, chevron bottom -->
   <path fill="#ffffff" d="M20 10 H180 V200 L100 230 L20 200 Z"/>
