@@ -58,7 +58,8 @@
 @media (max-width: 720px) {
   .hero { height: 50vh; min-height: 380px; }
   .hero-logo-frame { padding: var(--s-4); }
-  .hero-logo { width: clamp(180px, 42vw, 240px); }
+  .hero-logo { width: clamp(126px, 29vw, 168px); }
+  .hero-wordmark { font-size: clamp(1.75rem, 4.2vw, 3.15rem); }
 }
 
 @media (prefers-reduced-motion: reduce) {
