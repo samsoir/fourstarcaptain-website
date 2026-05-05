@@ -8,6 +8,11 @@ ctas:
     href: /sim-specs/
     external: false
     icon: sliders
+  - title: Hangar
+    subtitle: The addon aircraft in the sim.
+    href: /hangar/
+    external: false
+    icon: hangar
   - title: YouTube
     subtitle: Watch the latest videos and subscribe.
     href: https://www.youtube.com/@fourstarcaptain
