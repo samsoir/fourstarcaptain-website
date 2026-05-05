@@ -2,7 +2,10 @@ baseURL = 'https://fourstarcaptain.com/'
 languageCode = 'en-us'
 title = 'Four Star Captain'
 theme = 'fourstarcaptain'
-disableKinds = ["taxonomy", "term"]
+disableKinds = []
+
+[taxonomies]
+  tag = "tags"
 disableHugoGeneratorInject = true
 
 [params]
