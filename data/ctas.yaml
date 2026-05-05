@@ -13,6 +13,11 @@ ctas:
     href: /hangar/
     external: false
     icon: hangar
+  - title: Articles
+    subtitle: Notes, fixes, and discoveries.
+    href: /articles/
+    external: false
+    icon: articles
   - title: YouTube
     subtitle: Watch the latest videos and subscribe.
     href: https://www.youtube.com/@fourstarcaptain
