@@ -1,0 +1,15 @@
+# Addon aircraft installed in the sim, grouped by aircraft type.
+# Categories render in declaration order. Each item: { name, value, note?, link? }
+# name  = aircraft model
+# value = developer / publisher
+# note  = optional supplementary line beneath the item
+# link  = optional URL; when present, the value becomes a link.
+categories:
+  - name: Airliners
+    items: []
+  - name: General Aviation
+    items: []
+  - name: Military
+    items: []
+  - name: Helicopters
+    items: []
