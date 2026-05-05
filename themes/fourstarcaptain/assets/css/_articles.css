@@ -1,0 +1,125 @@
+/* Article list (used by /articles/ and /tags/<tag>/) */
+.article-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.article-list-item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--color-rule, rgba(255, 255, 255, 0.08));
+}
+
+.article-list-item:last-child {
+  border-bottom: none;
+}
+
+.article-list-title {
+  margin: 0 0 0.35rem 0;
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+
+.article-list-title a {
+  color: var(--color-text, inherit);
+  text-decoration: none;
+}
+
+.article-list-title a:hover {
+  text-decoration: underline;
+}
+
+.article-meta {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.85rem;
+  color: var(--color-text-muted, rgba(255, 255, 255, 0.6));
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.article-meta time {
+  font-variant-numeric: tabular-nums;
+}
+
+.article-tags {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.article-tag {
+  display: inline-block;
+  padding: 0.1rem 0.55rem;
+  border: 1px solid var(--color-rule, rgba(255, 255, 255, 0.18));
+  border-radius: 999px;
+  font-size: 0.75rem;
+  text-decoration: none;
+  color: var(--color-text-muted, rgba(255, 255, 255, 0.75));
+  text-transform: lowercase;
+}
+
+.article-tag:hover {
+  color: var(--color-text, #fff);
+  border-color: var(--color-text, rgba(255, 255, 255, 0.6));
+}
+
+.article-summary {
+  margin: 0;
+  color: var(--color-text-muted, rgba(255, 255, 255, 0.75));
+  line-height: 1.5;
+}
+
+/* Single article body */
+.article-body {
+  max-width: 70ch;
+  line-height: 1.65;
+}
+
+.article-body h2 {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+
+.article-body h3 {
+  margin-top: 1.5rem;
+  font-size: 1.15rem;
+}
+
+.article-body p,
+.article-body ul,
+.article-body ol,
+.article-body blockquote {
+  margin: 1rem 0;
+}
+
+.article-body code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.9em;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  background: var(--color-code-bg, rgba(255, 255, 255, 0.08));
+}
+
+.article-body pre {
+  overflow-x: auto;
+  padding: 1rem;
+  border-radius: 6px;
+  background: var(--color-code-bg, rgba(255, 255, 255, 0.08));
+}
+
+.article-body pre code {
+  background: transparent;
+  padding: 0;
+}
+
+.article-body blockquote {
+  border-left: 3px solid var(--color-rule, rgba(255, 255, 255, 0.25));
+  padding-left: 1rem;
+  color: var(--color-text-muted, rgba(255, 255, 255, 0.75));
+}
+
+.article-body a {
+  color: var(--color-link, inherit);
+}

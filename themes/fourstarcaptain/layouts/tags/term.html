@@ -1,0 +1,29 @@
+{{ define "main" }}
+{{ partial "nav.html" . }}
+
+<article class="page">
+  <header class="page-header">
+    <h1 class="page-title">Articles tagged: {{ .Title }}</h1>
+    <p class="page-intro"><a href="/articles/">← All articles</a></p>
+  </header>
+
+  <ul class="article-list">
+    {{ range .Pages.ByDate.Reverse }}
+    <li class="article-list-item">
+      <h2 class="article-list-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+      <p class="article-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+        {{ with .Params.tags }}
+        <span class="article-tags">
+          {{ range . }}<a class="article-tag" href="/tags/{{ . | urlize }}/">{{ . }}</a>{{ end }}
+        </span>
+        {{ end }}
+      </p>
+      {{ with .Params.summary }}<p class="article-summary">{{ . }}</p>{{ end }}
+    </li>
+    {{ end }}
+  </ul>
+</article>
+
+{{ partial "footer.html" . }}
+{{ end }}
