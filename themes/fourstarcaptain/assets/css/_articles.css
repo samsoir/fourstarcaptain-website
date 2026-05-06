@@ -71,89 +71,164 @@
   line-height: 1.5;
 }
 
-/* Long-form prose: applies to /articles/<slug>/ and any default single page (e.g. /about/). */
+/* Long-form prose: applies to /articles/<slug>/ and any default single page (e.g. /about/).
+   Body type is Source Serif 4; headings stay sans (Inter) for editorial contrast. */
 .article-body,
 .page-body {
   max-width: 70ch;
-  line-height: 1.65;
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  line-height: 1.75;
+  font-weight: 400;
+  letter-spacing: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "onum" 1;
 }
 
-/* ECAM-inspired heading hierarchy: white h1 (set by .page-title) → amber h2 → green h3 → magenta h4.
-   Cyan is reserved for links (--link) so it isn't reused here. */
+.article-body > * + *,
+.page-body > * + * {
+  margin-top: 1.45em;
+}
+
+.article-body p,
+.page-body p {
+  margin: 0;
+}
+
+/* ECAM-inspired heading hierarchy: white h1 (set by .page-title), amber h2, green h3, magenta h4.
+   Cyan is reserved for links (--link) so it isn't reused here. Headings use Inter for editorial contrast
+   against the serif body. */
+.article-body h2,
+.article-body h3,
+.article-body h4,
+.page-body h2,
+.page-body h3,
+.page-body h4 {
+  font-family: var(--font-sans);
+  line-height: 1.25;
+}
+
 .article-body h2,
 .page-body h2 {
-  margin-top: 2.25rem;
-  font-size: 1.4rem;
-  font-weight: 600;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  font-size: 1.875rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
   color: var(--ecas-amber);
-  letter-spacing: 0.005em;
 }
 
 .article-body h3,
 .page-body h3 {
-  margin-top: 1.75rem;
-  font-size: 1.15rem;
+  margin-top: 1.75em;
+  margin-bottom: 0.4em;
+  font-size: 1.4rem;
   font-weight: 600;
+  letter-spacing: -0.01em;
   color: var(--ecas-green);
 }
 
 .article-body h4,
 .page-body h4 {
-  margin-top: 1.5rem;
-  font-size: var(--t-caption);
+  margin-top: 1.5em;
+  margin-bottom: 0.35em;
+  font-size: 1.125rem;
   font-weight: 600;
   color: var(--ecas-magenta);
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
 }
 
-.article-body p,
+.article-body strong,
+.page-body strong {
+  color: var(--fg);
+  font-weight: 600;
+}
+
+.article-body em,
+.page-body em {
+  font-style: italic;
+}
+
 .article-body ul,
 .article-body ol,
-.article-body blockquote,
-.page-body p,
 .page-body ul,
-.page-body ol,
-.page-body blockquote {
-  margin: 1rem 0;
+.page-body ol {
+  padding-left: 1.4em;
+  margin: 0;
+}
+
+.article-body li,
+.page-body li {
+  margin: 0.35em 0;
+}
+
+.article-body li > p,
+.page-body li > p {
+  margin: 0.2em 0;
 }
 
 .article-body code,
 .page-body code {
-  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-  font-size: 0.9em;
-  padding: 0.1em 0.35em;
+  font-family: var(--font-mono);
+  font-size: 0.88em;
+  padding: 0.15em 0.4em;
   border-radius: 4px;
   background: var(--soft);
+  letter-spacing: 0;
 }
 
 .article-body pre,
 .page-body pre {
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  line-height: 1.6;
   overflow-x: auto;
   padding: 1rem;
   border-radius: 6px;
   background: var(--soft);
+  border: 1px solid var(--line);
 }
 
 .article-body pre code,
 .page-body pre code {
   background: transparent;
   padding: 0;
+  font-size: inherit;
 }
 
 .article-body blockquote,
 .page-body blockquote {
-  border-left: 3px solid var(--line);
-  padding-left: 1rem;
+  margin: 0;
+  padding: 0.5rem 1.25rem;
+  border-left: 3px solid var(--ecas-magenta);
   color: var(--muted);
+  font-style: italic;
+}
+
+.article-body blockquote p,
+.page-body blockquote p {
+  margin: 0;
 }
 
 .article-body a,
 .page-body a {
   color: var(--link);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 150ms ease, text-decoration-thickness 150ms ease;
 }
 
 .article-body a:hover,
 .page-body a:hover {
   color: var(--link-hover);
+  text-decoration-thickness: 2px;
+}
+
+.article-body hr,
+.page-body hr {
+  border: 0;
+  height: 1px;
+  background: var(--line);
+  margin: 2rem 0;
 }

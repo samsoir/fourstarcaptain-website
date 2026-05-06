@@ -23,6 +23,11 @@
   --ecas-green: #00cc00;
   --ecas-magenta: #cc66ff;
 
+  /* Type families */
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: 'Source Serif 4', 'Source Serif Pro', 'Iowan Old Style', Palatino, Georgia, serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
   /* Typography */
   --t-hero: clamp(2.5rem, 6vw, 4.5rem);
   --t-h1: clamp(2rem, 4.5vw, 3rem);
