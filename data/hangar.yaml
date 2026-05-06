@@ -5,11 +5,131 @@
 # note  = optional supplementary line beneath the item
 # link  = optional URL; when present, the value becomes a link.
 categories:
-  - name: Airliners
-    items: []
+  - name: Heavy Metal
+    items:
+      - name: Airbus A300-600F
+        value: Inibuilds
+        link: https://www.inibuilds.com
+      - name: Airbus A330-900
+        value: Toliss
+        link: https://www.toliss.com
+      - name: Airbus A350-900
+        value: FlightFactor
+        link: https://www.flightfactor.com
+      - name: Boeing 747-8, 747-8F
+        value: SSG
+        link: https://www.ssg.com
+      - name: Boeing 757-200, 757-300, 757-F
+        value: FlightFactor
+        link: https://www.toliss.com
+      - name: Boeing 767-200ER, 767-300ER, 767-400ER, 767-F
+        value: FlightFactor
+        link: https://www.toliss.com
+      - name: Boeing 777-200, 777-300ER, 777-F
+        value: FlightFactor
+        link: https://www.toliss.com
+      - name: McDonnell Douglas MD11-F
+        value: RotateSim
+        link: https://www.rotatesim.com
+  - name: On The Line
+    items:
+      - name: Airbus A319, A319-neo, A320, A320-neo, A321, A321-neo
+        value: Toliss
+        link: toliss.com
+      - name: Airbus A320
+        value: FlightFactor
+        link: https://www.flightfactor.com
+      - name: Boeing 737-700, 737-800, 737-900(ER)
+        value: LevelUp
+        link: https://www.toliss.com
+      - name: Boeing 737-800
+        value: Zibo
+        link: https://www.zibo.com
+      - name: Bombardier CRJ 700, 900, 1000
+        value: DeltaWing
+        link: https://www.deltawing.com
+      - name: Bombardier Dash-8 Q400
+        value: FlyJSim
+        link: https://www.flyjsim.com
+      - name: Embrear ERJ 135, 140, 145(XR)
+        value: X-Crafts
+        link: https://www.toliss.com
+      - name: Embrear E-Jets 170, 175, 190, 195
+        value: X-Crafts
+        link: https://x-crafts.com
+  - name: Private Transportation
+    items:
+      - name: Bombardier Challenger CL650
+        value: HotStart
+        link: https://www.x-aviation.com
+      - name: Epic E1000
+        value: Aerobask
+        link: https://www.aerobask.com
+      - name: Beechcraft King Air 350
+        value: Airfloillabs
+        link: https://www.airfoillabs.com
+      - name: TBM 900
+        value: HotStart
+        link: https://www.x-aviation.com
   - name: General Aviation
-    items: []
-  - name: Military
-    items: []
-  - name: Helicopters
-    items: []
+    items:
+      - name: Beechcraft Dutchess 76
+        value: JustFlight
+        link: https://www.justflight.com
+      - name: Cessna C172
+        value: Airfloillabs
+        link: https://www.airfoillabs.com
+      - name: Piper PA140 Cherokee
+        value: vFlyteAir
+        link: https://www.aerobask.com
+      - name: Diamond DA42NG
+        value: Aerobask
+        link: https://www.aerobask.com
+      - name: Diamond DA62
+        value: Aerobask
+        link: https://www.aerobask.com
+      - name: Piper PA28 Warrior II
+        value: Aerosphere
+        link: https://www.aerobask.com
+      - name: Piper PA28R Arrow III
+        value: Aerosphere
+        link: https://www.aerobask.com
+      - name: Piper PA28R Arrow & Turbo Arrow III
+        value: JustFlight
+        link: https://www.justflight.com
+      - name: Piper PA32 Senica II
+        value: Jetstream CIS
+        link: https://www.aerobask.com
+      - name: Piper PA44 Seminole
+        value: Jetstream CIS
+        link: https://www.aerobask.com
+  - name: Air Museum
+    items:
+      - name: Airbus A340-600
+        value: Toliss
+        link: https://www.toliss.com
+      - name: BAE JF 146-100, 146-200, 146-300
+        value: JustFlight
+        link: https://www.justflight.com
+      - name: Boeing 727-200
+        value: FlyJSim
+        link: https://www.flyjsim.com
+      - name: Boeing 737-100
+        value: FlyJSim
+        link: https://www.flyjsim.com
+      - name: Boeing 737-300
+        value: IXEG
+        link: https://www.ixeg.com
+      - name: Boeing 747-200, 747-200F
+        value: Felis
+        link: https://www.felis.com
+      - name: Concorde
+        value: FXP
+        link: https://www.inibuilds.com
+      - name: McDonnell Douglas MD11
+        value: RotateSim
+        link: https://www.rotatesim.com
+      - name: McDonnell Douglas MD80
+        value: RotateSim
+        link: https://www.rotatesim.com
+
