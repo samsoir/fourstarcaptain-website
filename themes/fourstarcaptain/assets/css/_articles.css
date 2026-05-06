@@ -86,14 +86,14 @@
   font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "onum" 1;
 }
 
-.article-body > * + *,
-.page-body > * + * {
-  margin-top: 1.45em;
-}
-
 .article-body p,
 .page-body p {
-  margin: 0;
+  margin: 0 0 1.45em 0;
+}
+
+.article-body > *:last-child,
+.page-body > *:last-child {
+  margin-bottom: 0;
 }
 
 /* ECAM-inspired heading hierarchy: white h1 (set by .page-title), amber h2, green h3, magenta h4.
@@ -154,7 +154,7 @@
 .page-body ul,
 .page-body ol {
   padding-left: 1.4em;
-  margin: 0;
+  margin: 0 0 1.45em 0;
 }
 
 .article-body li,
@@ -183,6 +183,7 @@
   font-size: 0.95rem;
   line-height: 1.6;
   overflow-x: auto;
+  margin: 0 0 1.45em 0;
   padding: 1rem;
   border-radius: 6px;
   background: var(--soft);
@@ -198,7 +199,7 @@
 
 .article-body blockquote,
 .page-body blockquote {
-  margin: 0;
+  margin: 0 0 1.45em 0;
   padding: 0.5rem 1.25rem;
   border-left: 3px solid var(--ecas-magenta);
   color: var(--muted);
