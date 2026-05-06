@@ -51,10 +51,10 @@ categories:
       - name: Bombardier Dash-8 Q400
         value: FlyJSim
         link: https://www.flyjsim.com/q4xp
-      - name: Embrear ERJ 135, 140, 145(XR)
+      - name: Embraer ERJ 135, 140, 145(XR)
         value: X-Crafts
         link: https://www.xcrafts.com/erj-family
-      - name: Embrear E-Jets 170, 175, 190, 195
+      - name: Embraer E-Jets 170, 175, 190, 195
         value: X-Crafts
         link: https://www.xcrafts.com/ejets-family
   - name: Private Transportation
@@ -79,9 +79,6 @@ categories:
       - name: Cessna C172
         value: Airfloillabs
         link: https://www.airfoillabs.com/c172-ng-digital
-      - name: Piper PA140 Cherokee
-        value: vFlyteAir
-        link: https://www.vflyteair.com/cherokee-140-for-x-plane-12.php
       - name: Diamond DA42NG
         value: Aerobask
         link: https://aerobask.com/da42.php
@@ -103,6 +100,9 @@ categories:
       - name: Piper PA44 Seminole
         value: Jetstream CIS
         link: https://www.jetstreamfs.com/seminole/
+      - name: Piper PA140 Cherokee
+        value: vFlyteAir
+        link: https://www.vflyteair.com/cherokee-140-for-x-plane-12.php
   - name: Air Museum
     items:
       - name: Airbus A340-600

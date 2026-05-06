@@ -2,7 +2,7 @@
 title = "FlightFactor 777 v2 on Linux: forcing the right libc++ at runtime"
 date = 2026-05-05
 summary = "The FlightFactor 777 v2 ships with its own libc++ runtime. On some Linux distros the system's libc++ resolves first at dlopen time and the plugin crashes or hangs. An LD_PRELOAD wrapper biases the resolution back to the bundled copy."
-tags = ["x-plane", "linux", "flightfactor"]
+tags = ["x-plane", "linux", "flightfactor", "b777"]
 draft = false
 +++
 
@@ -10,10 +10,10 @@ The FlightFactor 777 v2 ships its `stsff_aircraft_performance_lua` plugin module
 
 ## Symptoms
 
-Triggered by selecting the FF 777, one of two things happens:
+Triggered on Linux by selecting a FF 777v2 variant, one of two things happens:
 
 1. **X-Plane crashes to desktop.** The simulator process exits while the aircraft is loading, with no graceful error.
-2. **The aircraft initialisation screen hangs indefinitely.** The progress indicator stops advancing and the sim never reaches the cockpit. Killing the process is the only way out.
+2. **The aircraft initialization screen hangs indefinitely.** The progress indicator stops advancing and the sim never reaches the cockpit. Killing the process is the only way out.
 
 Either failure mode usually leaves something in `Log.txt` referencing `stsff_aircraft_performance_lua` or `libc++` / `libc++abi`. To check:
 

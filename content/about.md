@@ -2,23 +2,25 @@
 title = "About"
 +++
 
-## About Four Star Captain
+The Four Star Captain is actually Sam de Freyssinet, a software engineering director based in the Bay Area of California.
 
-This is a stub. Replace this content with the real "about" copy when ready.
+When not working, Sam enjoys traveling, snowboarding and of course flying, both real and virtual. He especially likes doing all of these things with his kids.
 
-A few paragraphs describing the channel, the captain behind it, and what the
-site is for would slot in here.
+## Where does the name originate?
+
+Sam has not been in the military. The name Four Star Captain originated from the City that Sam spent a lot of time in during the 2010's.
+
+The biggest clue is front and center in the channel logo.
 
 ## The Channel
 
-Stub paragraph about the YouTube channel — what it covers, why it exists, who
-it is for.
+Flight Simulation videos that focus on flying online on either VATSIM or PilotEdge and attempt, sometimes less successfully, to follow real world procedures and operations. 
 
-## The Sim
+Most of my videos are commercial aviation focused, but I do like to take up smaller aircraft for VFR flights every once in a while.
 
-Stub paragraph about the simulator setup — broad strokes only; specifics live
-on the Sim Specs and Hangar pages.
+Flight Simulation on Linux is a recent passion that I am focused on sharing, especially the ongoing development of XEarthLayer, streaming ortho-scenery for X-Plane on Linux.
+
 
 ## Get in Touch
 
-Stub paragraph or a simple list of contact / social links.
+You can reach the Four Star Captain at [contact@fourstarcaptain.com](mailto:contact@fourstarcaptain.com).
