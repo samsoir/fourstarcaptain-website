@@ -7,7 +7,7 @@
 
 .article-list-item {
   padding: 1.5rem 0;
-  border-bottom: 1px solid var(--color-rule, rgba(255, 255, 255, 0.08));
+  border-bottom: 1px solid var(--line);
 }
 
 .article-list-item:last-child {
@@ -21,18 +21,18 @@
 }
 
 .article-list-title a {
-  color: var(--color-text, inherit);
+  color: var(--fg);
   text-decoration: none;
 }
 
 .article-list-title a:hover {
-  text-decoration: underline;
+  color: var(--link-hover);
 }
 
 .article-meta {
   margin: 0 0 0.5rem 0;
-  font-size: 0.85rem;
-  color: var(--color-text-muted, rgba(255, 255, 255, 0.6));
+  font-size: var(--t-small);
+  color: var(--muted);
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
@@ -52,74 +52,107 @@
 .article-tag {
   display: inline-block;
   padding: 0.1rem 0.55rem;
-  border: 1px solid var(--color-rule, rgba(255, 255, 255, 0.18));
+  border: 1px solid var(--line);
   border-radius: 999px;
-  font-size: 0.75rem;
+  font-size: var(--t-caption);
   text-decoration: none;
-  color: var(--color-text-muted, rgba(255, 255, 255, 0.75));
+  color: var(--muted);
   text-transform: lowercase;
 }
 
 .article-tag:hover {
-  color: var(--color-text, #fff);
-  border-color: var(--color-text, rgba(255, 255, 255, 0.6));
+  color: var(--fg);
+  border-color: var(--muted);
 }
 
 .article-summary {
   margin: 0;
-  color: var(--color-text-muted, rgba(255, 255, 255, 0.75));
+  color: var(--muted);
   line-height: 1.5;
 }
 
-/* Single article body */
-.article-body {
+/* Long-form prose: applies to /articles/<slug>/ and any default single page (e.g. /about/). */
+.article-body,
+.page-body {
   max-width: 70ch;
   line-height: 1.65;
 }
 
-.article-body h2 {
-  margin-top: 2rem;
+/* ECAM-inspired heading hierarchy: white h1 (set by .page-title) → cyan h2 → green h3 → magenta h4. */
+.article-body h2,
+.page-body h2 {
+  margin-top: 2.25rem;
   font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--ecas-cyan);
+  letter-spacing: 0.005em;
 }
 
-.article-body h3 {
-  margin-top: 1.5rem;
+.article-body h3,
+.page-body h3 {
+  margin-top: 1.75rem;
   font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--ecas-green);
+}
+
+.article-body h4,
+.page-body h4 {
+  margin-top: 1.5rem;
+  font-size: var(--t-caption);
+  font-weight: 600;
+  color: var(--ecas-magenta);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 
 .article-body p,
 .article-body ul,
 .article-body ol,
-.article-body blockquote {
+.article-body blockquote,
+.page-body p,
+.page-body ul,
+.page-body ol,
+.page-body blockquote {
   margin: 1rem 0;
 }
 
-.article-body code {
+.article-body code,
+.page-body code {
   font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
   font-size: 0.9em;
   padding: 0.1em 0.35em;
   border-radius: 4px;
-  background: var(--color-code-bg, rgba(255, 255, 255, 0.08));
+  background: var(--soft);
 }
 
-.article-body pre {
+.article-body pre,
+.page-body pre {
   overflow-x: auto;
   padding: 1rem;
   border-radius: 6px;
-  background: var(--color-code-bg, rgba(255, 255, 255, 0.08));
+  background: var(--soft);
 }
 
-.article-body pre code {
+.article-body pre code,
+.page-body pre code {
   background: transparent;
   padding: 0;
 }
 
-.article-body blockquote {
-  border-left: 3px solid var(--color-rule, rgba(255, 255, 255, 0.25));
+.article-body blockquote,
+.page-body blockquote {
+  border-left: 3px solid var(--line);
   padding-left: 1rem;
-  color: var(--color-text-muted, rgba(255, 255, 255, 0.75));
+  color: var(--muted);
 }
 
-.article-body a {
-  color: var(--color-link, inherit);
+.article-body a,
+.page-body a {
+  color: var(--link);
+}
+
+.article-body a:hover,
+.page-body a:hover {
+  color: var(--link-hover);
 }
