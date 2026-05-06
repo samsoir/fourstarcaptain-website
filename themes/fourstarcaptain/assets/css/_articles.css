@@ -78,13 +78,14 @@
   line-height: 1.65;
 }
 
-/* ECAM-inspired heading hierarchy: white h1 (set by .page-title) → cyan h2 → green h3 → magenta h4. */
+/* ECAM-inspired heading hierarchy: white h1 (set by .page-title) → amber h2 → green h3 → magenta h4.
+   Cyan is reserved for links (--link) so it isn't reused here. */
 .article-body h2,
 .page-body h2 {
   margin-top: 2.25rem;
   font-size: 1.4rem;
   font-weight: 600;
-  color: var(--ecas-cyan);
+  color: var(--ecas-amber);
   letter-spacing: 0.005em;
 }
 
