@@ -9,127 +9,126 @@ categories:
     items:
       - name: Airbus A300-600F
         value: Inibuilds
-        link: https://www.inibuilds.com
+        link: https://secure.simmarket.com/inibuilds-inisimulations-a300-600r(f)-on-the-line-x-plane-11.phtml
       - name: Airbus A330-900
         value: Toliss
-        link: https://www.toliss.com
+        link: https://toliss.com/pages/a330-900
       - name: Airbus A350-900
         value: FlightFactor
-        link: https://www.flightfactor.com
+        link: https://flightfactor.aero
       - name: Boeing 747-8, 747-8F
         value: SSG
-        link: https://www.ssg.com
+        link: https://store.x-plane.org/B-747-8-Series-Anniversary-Edition_p_1079.html
       - name: Boeing 757-200, 757-300, 757-F
         value: FlightFactor
-        link: https://www.toliss.com
+        link: https://flightfactor.aero
       - name: Boeing 767-200ER, 767-300ER, 767-400ER, 767-F
         value: FlightFactor
-        link: https://www.toliss.com
+        link: https://flightfactor.aero
       - name: Boeing 777-200, 777-300ER, 777-F
         value: FlightFactor
-        link: https://www.toliss.com
+        link: https://flightfactor.aero
       - name: McDonnell Douglas MD11-F
         value: RotateSim
-        link: https://www.rotatesim.com
+        link: https://rotatesim.com/rotate-md-11p/
   - name: On The Line
     items:
       - name: Airbus A319, A319-neo, A320, A320-neo, A321, A321-neo
         value: Toliss
-        link: toliss.com
+        link: https://toliss.com
       - name: Airbus A320
         value: FlightFactor
-        link: https://www.flightfactor.com
+        link: https://flightfactor.aero
       - name: Boeing 737-700, 737-800, 737-900(ER)
         value: LevelUp
-        link: https://www.toliss.com
+        link: https://forum.thresholdx.net/files/file/4108-737ng-series-for-x-plane-12/
       - name: Boeing 737-800
         value: Zibo
-        link: https://www.zibo.com
+        link: https://forums.x-plane.org/forums/forum/384-zibo-b738-800-modified/
       - name: Bombardier CRJ 700, 900, 1000
         value: DeltaWing
-        link: https://www.deltawing.com
+        link: https://www.deltawingsim.com/
       - name: Bombardier Dash-8 Q400
         value: FlyJSim
-        link: https://www.flyjsim.com
+        link: https://www.flyjsim.com/q4xp
       - name: Embrear ERJ 135, 140, 145(XR)
         value: X-Crafts
-        link: https://www.toliss.com
+        link: https://www.xcrafts.com/erj-family
       - name: Embrear E-Jets 170, 175, 190, 195
         value: X-Crafts
-        link: https://x-crafts.com
+        link: https://www.xcrafts.com/ejets-family
   - name: Private Transportation
     items:
       - name: Bombardier Challenger CL650
         value: HotStart
-        link: https://www.x-aviation.com
+        link: https://www.x-aviation.com/catalog/product_info.php/take-command-hot-start-challenger-650-p-212
       - name: Epic E1000
         value: Aerobask
-        link: https://www.aerobask.com
+        link: https://aerobask.com/E1000G.php
       - name: Beechcraft King Air 350
         value: Airfloillabs
-        link: https://www.airfoillabs.com
+        link: https://www.airfoillabs.com/king-air-350
       - name: TBM 900
         value: HotStart
-        link: https://www.x-aviation.com
+        link: https://www.x-aviation.com/catalog/product_info.php/take-command-hot-start-tbm-900-p-158
   - name: General Aviation
     items:
       - name: Beechcraft Dutchess 76
         value: JustFlight
-        link: https://www.justflight.com
+        link: https://www.justflight.com/product/duchess-model-76-xplane-11
       - name: Cessna C172
         value: Airfloillabs
-        link: https://www.airfoillabs.com
+        link: https://www.airfoillabs.com/c172-ng-digital
       - name: Piper PA140 Cherokee
         value: vFlyteAir
-        link: https://www.aerobask.com
+        link: https://www.vflyteair.com/cherokee-140-for-x-plane-12.php
       - name: Diamond DA42NG
         value: Aerobask
-        link: https://www.aerobask.com
+        link: https://aerobask.com/da42.php
       - name: Diamond DA62
         value: Aerobask
-        link: https://www.aerobask.com
+        link: https://aerobask.com
       - name: Piper PA28 Warrior II
         value: Aerosphere
-        link: https://www.aerobask.com
+        link: https://aerospheresimulations.com/product/piper-warrior-ii/
       - name: Piper PA28R Arrow III
         value: Aerosphere
-        link: https://www.aerobask.com
+        link: https://store.x-plane.org/PA-28R-201-Piper-Arrow-III_p_491.html
       - name: Piper PA28R Arrow & Turbo Arrow III
         value: JustFlight
-        link: https://www.justflight.com
+        link: https://www.justflight.com/product/pa-28r-arrow-iii-xplane-12
       - name: Piper PA32 Senica II
         value: Jetstream CIS
-        link: https://www.aerobask.com
+        link: https://www.jetstreamfs.com/seneca-ii/
       - name: Piper PA44 Seminole
         value: Jetstream CIS
-        link: https://www.aerobask.com
+        link: https://www.jetstreamfs.com/seminole/
   - name: Air Museum
     items:
       - name: Airbus A340-600
         value: Toliss
-        link: https://www.toliss.com
+        link: https://toliss.com/pages/a340-600
       - name: BAE JF 146-100, 146-200, 146-300
         value: JustFlight
-        link: https://www.justflight.com
+        link: https://www.justflight.com/product/146-professional-xplane-12
       - name: Boeing 727-200
         value: FlyJSim
-        link: https://www.flyjsim.com
+        link: https://www.flyjsim.com/727
       - name: Boeing 737-100
         value: FlyJSim
-        link: https://www.flyjsim.com
+        link: https://www.flyjsim.com/732
       - name: Boeing 737-300
         value: IXEG
-        link: https://www.ixeg.com
+        link: https://www.x-aviation.com/catalog/product_info.php/take-command-ixeg-737-classic-plus-p-243
       - name: Boeing 747-200, 747-200F
         value: Felis
-        link: https://www.felis.com
+        link: https://store.x-plane.org/747-200-Classic-Passengers_p_1491.html
       - name: Concorde
         value: FXP
-        link: https://www.inibuilds.com
+        link: https://store.x-plane.org/Concorde-FXP-version-3--XP12_p_1691.html
       - name: McDonnell Douglas MD11
         value: RotateSim
-        link: https://www.rotatesim.com
+        link: https://rotatesim.com/
       - name: McDonnell Douglas MD80
         value: RotateSim
-        link: https://www.rotatesim.com
-
+        link: https://rotatesim.com/rotate-md-80/
